@@ -14,7 +14,22 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Привет  Владимир " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWt-hS-Yvl">
+                                <rect key="frame" x="98.666666666666686" y="353" width="217" height="30"/>
+                                <color key="backgroundColor" red="0.26839670259999998" green="0.78039215689999997" blue="0.5007042277" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hWt-hS-Yvl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HbQ-uy-EMr"/>
+                            <constraint firstItem="hWt-hS-Yvl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JhE-dK-moL"/>
+                            <constraint firstItem="hWt-hS-Yvl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="R7y-u3-leb"/>
+                            <constraint firstItem="hWt-hS-Yvl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hmd-fn-5Pk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
